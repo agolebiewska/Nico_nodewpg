@@ -13,10 +13,10 @@ Follow the next steps to create your first site!!
 ![open Visual Studio Code](resources/images/open_folder_2.png)
 5. Create the following files inside the my-first-site folder :
   * index.html
-  * style.css
+  * styles.css
   * script.js
 ![open Visual Studio Code](resources/images/create_files.png)
-6. Read and write the following code on each document
+6. Copy and Paste the following code on each document
 
 ### index.html
 ```html
@@ -24,7 +24,7 @@ Follow the next steps to create your first site!!
 <html lang="en">
 <head>
   <title>My First Site</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styles.css">
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
@@ -105,15 +105,14 @@ To be able to publish it we need a free hosting and a domain.
 4. Create your account using Facebook, Google or by input new credentials
 ![Awardspace](resources/images/awardspace_signup.png)
 5. You'll get a confirmation email with the system login information (it will be something like: [https://cp1.awardspace.net/beta](https://cp1.awardspace.net/beta))
-6. Confirmate you email account
-7. Login to the system using your credentials
+6. Confirm your email account (if the email asks you to)
+7. Login to the system using your credentials from the email
 ![AwardSpace Dashboard](resources/images/awardspace-panel.png)
 8. Configure a subdomain by clicking `Domain Manager` under the **First Steps Made Easy**
 ![First Steps Made Easy](resources/images/domain.png)
 9. Select `Create a Free Subdomain`
 ![First Steps Made Easy](resources/images/awardspace_subdomain.png)
 10. Input a subdomain name and click the create button (this is the URL that we'll access online)
-11. Open a new tab and navigate to the URL that you just created. You should see a landing page
 12. Now that we have a hosting and domain configured we need to upload our site to publish it.
 13. Download & install [Filezilla](https://sourceforge.net/projects/filezilla/files/latest/download)
 or any other [FTP](https://simple.wikipedia.org/wiki/FTP) client
@@ -124,6 +123,8 @@ or any other [FTP](https://simple.wikipedia.org/wiki/FTP) client
 16. Click on your ftp user name options button
 ![FTP options button](resources/images/awardspace_fpt_configuration.png)
 17. Download FileZilla configuration file by clicking FTP configurations files button
+* (If the FTP configuration download does not work, you will need to manually enter your FTP site, 
+   username and password in FileZilla instead of opening the config in the next step)
 ![FTP account](resources/images/awardspace_filezilla_configuration_file.png)
 18. Open & configure Filezilla using the configuration file
 ![FTP account](resources/images/awardspace_filezilla_how_to_configure.png)

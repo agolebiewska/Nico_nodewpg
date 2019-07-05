@@ -8,9 +8,8 @@
 * [Git & Github](git.md)
 * [CSS](css.md)
 * [JavaScript](javascript.md)
+* [Browser API](browserapi.md)
 * [Node.js](nodejs.md)
-* [MongoDB](mongodb.md)
-* [Mongoose ODM](mongoose.md)
-* [Sails.js](sailsjs.md)
+* [Building a Node.js site with Express](buildingsite.md)
+* [MongoDB & Mongoose](mongodb.md)
 * [Deploy](deploy.md)
-
